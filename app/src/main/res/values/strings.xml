@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sensor Maps 10120155</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_note">Notes</string>
+    <string name="title_info">Info</string>
+
+    <string name="screen1">screen1</string>
+    <string name="screen2">screen2</string>
+    <string name="screen3">screen3</string>
+
+    <string name="screen1desc">desc1</string>
+    <string name="screen2desc">desc2</string>
+    <string name="screen3desc">desc3</string>
+    <string name="startDesc">start</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
