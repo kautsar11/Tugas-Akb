@@ -13,6 +13,7 @@ import androidx.viewpager.widget.ViewPager;
 import com.example.tugasakb.MainActivity;
 import com.example.tugasakb.R;
 import com.example.tugasakb.ViewPagerAdapter;
+import com.example.tugasakb.auth.Login;
 
 public class NavigationActivity extends AppCompatActivity {
     ViewPager slideViewPager;
@@ -72,7 +73,7 @@ public class NavigationActivity extends AppCompatActivity {
         skipButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(NavigationActivity.this, MainActivity.class);
+                Intent i = new Intent(NavigationActivity.this, Login.class);
                 startActivity(i);
                 finish();
             }

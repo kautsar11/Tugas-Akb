@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.example.tugasakb.MainActivity;
 import com.example.tugasakb.R;
+import com.example.tugasakb.auth.Login;
 
 public class GetStarted extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class GetStarted extends AppCompatActivity {
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(GetStarted.this, MainActivity.class);
+                Intent intent = new Intent(GetStarted.this, Login.class);
                 startActivity(intent);
                 finish();
             }
