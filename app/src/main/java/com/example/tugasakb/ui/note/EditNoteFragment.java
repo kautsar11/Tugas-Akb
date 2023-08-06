@@ -22,6 +22,11 @@ import com.example.tugasakb.helper.Helper;
 import java.util.HashMap;
 
 public class EditNoteFragment extends Fragment {
+
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     EditText judulEditText, kategoriEditText, isiEditText;
     Button backButton, simpanButton;
     String judul, kategori, isi;

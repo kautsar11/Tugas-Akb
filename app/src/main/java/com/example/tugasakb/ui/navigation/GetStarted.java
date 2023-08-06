@@ -13,6 +13,10 @@ import com.example.tugasakb.auth.Login;
 
 public class GetStarted extends AppCompatActivity {
 
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     Button startButton;
 
     @Override

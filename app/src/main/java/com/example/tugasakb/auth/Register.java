@@ -24,6 +24,10 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class Register extends AppCompatActivity {
 
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     TextInputEditText editTextEmail, editTextPassword;
     Button buttonReg;
     FirebaseAuth mAuth;
@@ -35,7 +39,7 @@ public class Register extends AppCompatActivity {
         super.onStart();
         // Periksa apakah user sudah login sebelumnya
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        if(currentUser != null){
+        if (currentUser != null) {
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
             finish();
@@ -88,12 +92,12 @@ public class Register extends AppCompatActivity {
                                 progressBar.setVisibility(View.GONE);
 
                                 if (task.isSuccessful()) {
-                                    Toast.makeText(Register.this, "Akun Berhasil Dibuat",Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(Register.this, "Akun Berhasil Dibuat", Toast.LENGTH_SHORT).show();
                                     Intent intent = new Intent(getApplicationContext(), Login.class);
                                     startActivity(intent);
                                     finish();
                                 } else {
-                                    Toast.makeText(Register.this, "Akun Gagal Dibuat",Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(Register.this, "Akun Gagal Dibuat", Toast.LENGTH_SHORT).show();
                                 }
                             }
                         });

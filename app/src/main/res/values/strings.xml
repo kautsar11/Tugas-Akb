@@ -4,15 +4,12 @@
     <string name="title_note">Notes</string>
     <string name="title_info">Info</string>
 
-    <string name="screen1">screen1</string>
-    <string name="screen2">screen2</string>
-    <string name="screen3">screen3</string>
+    <string name="screen1">Hai!</string>
+    <string name="screen2">Halo!</string>
 
-    <string name="screen1desc">desc1</string>
-    <string name="screen2desc">desc2</string>
-    <string name="screen3desc">desc3</string>
-    <string name="startDesc">start</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="screen1desc">Aplikasi Note</string>
+    <string name="screen2desc">Dibuat oleh Kautsar Teguh Dwi Putra (10120155) IF-4</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="login">Login</string>
     <string name="email">Email</string>

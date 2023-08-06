@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="Explore My Apps"
+        android:text="Aplikasi Notes"
         android:textSize="30sp"
         android:textAlignment="center"
         android:textColor="@color/lavender"
@@ -29,22 +29,10 @@
         android:fontFamily="sans-serif-light"
         />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/startDesc"
-        android:textSize="20sp"
-        android:layout_marginHorizontal="30dp"
-        android:textAlignment="center"
-        android:textColor="@color/lavender"
-        android:fontFamily="sans-serif-light"
-        />
-
     <Button
         android:layout_width="180dp"
         android:layout_height="60dp"
-        android:text="Get Started"
+        android:text="Mulai"
         android:id="@+id/startButton"
         android:padding="8dp"
         android:fontFamily="sans-serif-light"

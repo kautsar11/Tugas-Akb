@@ -30,6 +30,10 @@ import java.util.HashMap;
 
 public class NoteFragment extends Fragment {
 
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     private FragmentNoteBinding binding;
     FloatingActionButton create_note;
     ListView listView;

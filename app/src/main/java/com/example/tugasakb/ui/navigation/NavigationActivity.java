@@ -16,6 +16,11 @@ import com.example.tugasakb.ViewPagerAdapter;
 import com.example.tugasakb.auth.Login;
 
 public class NavigationActivity extends AppCompatActivity {
+
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     ViewPager slideViewPager;
     LinearLayout dotIndicator;
     Button backButton, nextButton, skipButton;

@@ -1,6 +1,11 @@
 package com.example.tugasakb.model;
 
 public class Note {
+
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     private String id;
     private String judul;
     private String tanggal;

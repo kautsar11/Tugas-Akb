@@ -22,6 +22,11 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class Login extends AppCompatActivity {
+
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     TextInputEditText editTextEmail, editTextPassword;
     Button buttonLogin;
     FirebaseAuth mAuth;

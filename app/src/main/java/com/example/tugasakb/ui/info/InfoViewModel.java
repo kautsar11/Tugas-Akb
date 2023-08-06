@@ -6,14 +6,8 @@ import androidx.lifecycle.ViewModel;
 
 public class InfoViewModel extends ViewModel {
 
-    private final MutableLiveData<String> mText;
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
 
-    public InfoViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
-    }
-
-    public LiveData<String> getText() {
-        return mText;
-    }
 }

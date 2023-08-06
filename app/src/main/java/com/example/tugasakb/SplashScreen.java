@@ -11,6 +11,10 @@ import com.example.tugasakb.ui.navigation.NavigationActivity;
 
 public class SplashScreen extends AppCompatActivity {
 
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -15,6 +15,10 @@ import com.example.tugasakb.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     private ActivityMainBinding binding;
 
     @Override

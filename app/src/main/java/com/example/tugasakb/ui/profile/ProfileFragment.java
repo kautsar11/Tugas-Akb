@@ -20,6 +20,10 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class ProfileFragment extends Fragment {
 
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     private FragmentProfileBinding binding;
 
     FirebaseAuth auth;
@@ -38,12 +42,12 @@ public class ProfileFragment extends Fragment {
         textView = binding.userDetails;
         user = auth.getCurrentUser();
 
-        if(user == null){
+        if (user == null) {
             // redirect to login page
             Intent intent = new Intent(getActivity(), Login.class);
             startActivity(intent);
-        }else{
-            textView.setText(user.getEmail());
+        } else {
+            textView.setText("Anda Login Menggunakan Email : \n" + user.getEmail());
         }
 
         button.setOnClickListener(new View.OnClickListener() {

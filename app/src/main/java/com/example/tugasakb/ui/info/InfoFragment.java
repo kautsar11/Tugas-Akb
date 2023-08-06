@@ -14,18 +14,18 @@ import com.example.tugasakb.databinding.FragmentInfoBinding;
 
 public class InfoFragment extends Fragment {
 
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     private FragmentInfoBinding binding;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        InfoViewModel notificationsViewModel =
-                new ViewModelProvider(this).get(InfoViewModel.class);
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        InfoViewModel notificationsViewModel = new ViewModelProvider(this).get(InfoViewModel.class);
 
         binding = FragmentInfoBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
-        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

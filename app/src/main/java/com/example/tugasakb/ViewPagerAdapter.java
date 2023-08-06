@@ -13,6 +13,10 @@ import androidx.viewpager.widget.PagerAdapter;
 
 public class ViewPagerAdapter extends PagerAdapter {
 
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     Context context;
     int sliderAllImage[] = {R.drawable.logo,R.drawable.logo};
     int sliderAllTitle[] = {R.string.screen1,R.string.screen2};

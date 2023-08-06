@@ -13,6 +13,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class NoteAdapter extends BaseAdapter {
+
+    //    Nim   : 10120155
+    //    Nama  : Kautsar Teguh Dwi Putra
+    //    Kelas : IF-4
+
     private final Context context;
     private ArrayList<HashMap<String, String>> data;
 
