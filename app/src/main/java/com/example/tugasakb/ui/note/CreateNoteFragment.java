@@ -17,6 +17,7 @@ import android.widget.Toast;
 import com.example.tugasakb.R;
 import com.example.tugasakb.helper.Helper;
 
+
 public class CreateNoteFragment extends Fragment {
 
     //    Nim   : 10120155
