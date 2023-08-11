@@ -31,7 +31,6 @@ public class ProfileFragment extends Fragment {
     TextView textView;
     FirebaseUser user;
 
-
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         ProfileViewModel homeViewModel = new ViewModelProvider(this).get(ProfileViewModel.class);
         binding = FragmentProfileBinding.inflate(inflater, container, false);
@@ -43,7 +42,7 @@ public class ProfileFragment extends Fragment {
         user = auth.getCurrentUser();
 
         if (user == null) {
-            // redirect to login page
+            // mengarahkan kehalaman login
             Intent intent = new Intent(getActivity(), Login.class);
             startActivity(intent);
         } else {

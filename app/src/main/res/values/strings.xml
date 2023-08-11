@@ -18,5 +18,6 @@
     <string name="sudah_punya_akun">Sudah Punya Akun?</string>
     <string name="belum_punya_akun">Belum Punya Akun?</string>
     <string name="logout">Logout</string>
+    <string name="login_dengan_google">Login Dengan Google</string>
 
 </resources>
