@@ -1,5 +1,9 @@
 package com.example.tugasakb.model;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 public class Note {
 
     //    Nim   : 10120155
@@ -14,11 +18,11 @@ public class Note {
 
     public Note() {
     }
-
-    public Note(String id, String judul, String tanggal, String kategori, String isi) {
+    public Note(String id,String judul, String kategori, String isi) {
         this.id = id;
         this.judul = judul;
-        this.tanggal = tanggal;
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault());
+        this.tanggal = dateFormat.format(new Date());
         this.kategori = kategori;
         this.isi = isi;
     }
@@ -39,7 +43,7 @@ public class Note {
         this.judul = judul;
     }
 
-    public String getTanggal() {
+    public Object getTanggal() {
         return tanggal;
     }
 
@@ -63,13 +67,4 @@ public class Note {
         this.isi = isi;
     }
 
-    // untuk debugging
-    @Override
-    public String toString() {
-        return "ID: " + id + "\n"
-                + "Judul: " + judul + "\n"
-                + "Tanggal: " + tanggal + "\n"
-                + "Kategori: " + kategori + "\n"
-                + "Isi: " + isi;
-    }
 }

@@ -35,4 +35,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFEFD500"
+        android:textAlignment="center"
+        android:text="INFO JIKA INGIN UBAH ATAU HAPUS DATA"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Tekan yang lama pada data yang ingin dihapus atau diedit maka akan muncul POPUP AKSI"/>
 </LinearLayout>

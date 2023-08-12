@@ -14,18 +14,6 @@
         app:layout_constraintBottom_toTopOf="@+id/tambah_note"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- pesan jika tidak ada data di db   -->
-    <TextView
-        android:id="@+id/no_data_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="tidak ada data"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
     <!-- tombol tambah data -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
